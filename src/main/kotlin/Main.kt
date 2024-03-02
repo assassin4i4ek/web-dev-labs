@@ -1,15 +1,12 @@
 package com.ruslanb
 
 import com.ruslanb.config.Config
-import com.ruslanb.dao.BatteryContainer
-import com.ruslanb.dao.BatteryContainerImpl
 import com.ruslanb.dao.VehicleContainer
 import com.ruslanb.model.Battery
 import com.ruslanb.model.Vehicle
 import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.math.BigDecimal
-import java.util.Calendar
-import kotlin.math.max
+import java.util.*
 
 fun randomBattery(calendar: Calendar): Battery {
     val models = arrayOf("battery_model_1", "battery_model_1")

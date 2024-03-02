@@ -1,4 +1,4 @@
-package com.ruslanb.dao
+package lab1.container
 
 open class ListContainerImpl<T>(
     init: Iterable<T>? = null

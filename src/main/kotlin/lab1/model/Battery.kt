@@ -1,4 +1,4 @@
-package com.ruslanb.model
+package lab1.model
 
 import java.util.Date
 

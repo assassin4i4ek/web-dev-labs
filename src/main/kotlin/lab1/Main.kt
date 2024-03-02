@@ -1,9 +1,9 @@
-package com.ruslanb
+package lab1
 
-import com.ruslanb.config.Config
-import com.ruslanb.dao.VehicleContainer
-import com.ruslanb.model.Battery
-import com.ruslanb.model.Vehicle
+import lab1.config.Config
+import lab1.container.VehicleContainer
+import lab1.model.Battery
+import lab1.model.Vehicle
 import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.math.BigDecimal
 import java.util.*

@@ -1,5 +1,5 @@
-package com.ruslanb.dao
+package lab1.container
 
-import com.ruslanb.model.Battery
+import lab1.model.Battery
 
 class BatteryContainerImpl: BatteryContainer, ListContainerImpl<Battery>()

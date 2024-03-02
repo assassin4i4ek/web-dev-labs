@@ -1,9 +1,9 @@
-package com.ruslanb.config
+package lab1.config
 
-import com.ruslanb.dao.BatteryContainer
-import com.ruslanb.dao.BatteryContainerImpl
-import com.ruslanb.dao.VehicleContainer
-import com.ruslanb.dao.VehicleContainerImpl
+import lab1.container.BatteryContainer
+import lab1.container.BatteryContainerImpl
+import lab1.container.VehicleContainer
+import lab1.container.VehicleContainerImpl
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import java.util.Calendar

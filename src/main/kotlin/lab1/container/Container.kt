@@ -1,4 +1,4 @@
-package com.ruslanb.dao
+package lab1.container
 
 interface Container<T> {
     /**

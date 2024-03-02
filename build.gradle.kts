@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.springframework:spring-context:6.0.6")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
